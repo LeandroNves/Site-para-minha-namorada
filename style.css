@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
 body {
   display: flex;
   justify-content: center;
@@ -59,8 +62,8 @@ body {
 
 .text {
   position: absolute;
-  font-family:  'Brush Script MT', cursive;
-  font-size: 26px;
+  font-family:  'Nanum Brush Script', cursive;
+  font-size: 40px;
   text-align: center;
   line-height: 25px;
   top: 35%;
@@ -159,9 +162,14 @@ body {
 }
 
 
-@media (max-height: 700px) {
+@media (max-height: 751px) {
   .year-of-dating {
-    top: 10px;
+    top: 30px;
   }
 }
 
+@media (max-height: 600px) {
+  .year-of-dating {
+    top: 0px;
+  }
+}
